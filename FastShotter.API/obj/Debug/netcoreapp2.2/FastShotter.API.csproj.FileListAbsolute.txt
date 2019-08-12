@@ -1,0 +1,14 @@
+D:\Dev\FastShotter\FastShotter.API\obj\Debug\netcoreapp2.2\FastShotter.API.csprojAssemblyReference.cache
+D:\Dev\FastShotter\FastShotter.API\obj\Debug\netcoreapp2.2\FastShotter.API.csproj.CoreCompileInputs.cache
+D:\Dev\FastShotter\FastShotter.API\obj\Debug\netcoreapp2.2\FastShotter.API.RazorAssemblyInfo.cache
+D:\Dev\FastShotter\FastShotter.API\obj\Debug\netcoreapp2.2\FastShotter.API.RazorAssemblyInfo.cs
+D:\Dev\FastShotter\FastShotter.API\obj\Debug\netcoreapp2.2\FastShotter.API.AssemblyInfoInputs.cache
+D:\Dev\FastShotter\FastShotter.API\obj\Debug\netcoreapp2.2\FastShotter.API.AssemblyInfo.cs
+D:\Dev\FastShotter\FastShotter.API\bin\Debug\netcoreapp2.2\FastShotter.API.deps.json
+D:\Dev\FastShotter\FastShotter.API\bin\Debug\netcoreapp2.2\FastShotter.API.runtimeconfig.json
+D:\Dev\FastShotter\FastShotter.API\bin\Debug\netcoreapp2.2\FastShotter.API.runtimeconfig.dev.json
+D:\Dev\FastShotter\FastShotter.API\bin\Debug\netcoreapp2.2\FastShotter.API.dll
+D:\Dev\FastShotter\FastShotter.API\bin\Debug\netcoreapp2.2\FastShotter.API.pdb
+D:\Dev\FastShotter\FastShotter.API\obj\Debug\netcoreapp2.2\FastShotter.API.RazorTargetAssemblyInfo.cache
+D:\Dev\FastShotter\FastShotter.API\obj\Debug\netcoreapp2.2\FastShotter.API.dll
+D:\Dev\FastShotter\FastShotter.API\obj\Debug\netcoreapp2.2\FastShotter.API.pdb
