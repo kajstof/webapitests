@@ -3,6 +3,16 @@ Accept: application/json
 
 ###
 
+GET https://localhost:5001/api/values/getmath
+Accept: application/json
+
+###
+
+GET https://localhost:5001/api/values/getmath
+Accept: application/json
+
+###
+
 GET http://localhost:5000/api/values/getmath
 Accept: application/json
 

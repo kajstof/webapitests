@@ -19,6 +19,11 @@
           <e p="ValuesController.cs" t="Include" />
         </e>
         <e p="FastShotter.API.csproj" t="IncludeRecursive" />
+        <e p="Migrations" t="Include">
+          <e p="20190813205434_20190813225400_InitialMigration.cs" t="Include" />
+          <e p="20190813205434_20190813225400_InitialMigration.Designer.cs" t="Include" />
+          <e p="SchoolContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="Model" t="Include">
           <e p="Course.cs" t="Include" />
           <e p="SchoolContext.cs" t="Include" />
@@ -33,6 +38,7 @@
         </e>
         <e p="Program.cs" t="Include" />
         <e p="requests.http" t="Include" />
+        <e p="school.db" t="Include" />
         <e p="Startup.cs" t="Include" />
       </e>
       <e p="FastShotter.sln" t="IncludeFlat" />
