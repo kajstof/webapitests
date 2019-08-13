@@ -32,6 +32,12 @@ namespace FastShotter.API.Controllers
             return "hahaha";
         }
 
+        [HttpGet("newapiapi/{id}")]
+        public async Task<ActionResult<string>> Get3(int id)
+        {
+            return await Task.Run(() => $"value {id}");
+        }
+
         // POST api/values
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] SomeClassValue value)
