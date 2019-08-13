@@ -1,28 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/ksf/Dev/webapitests/FastShotter.Tests/FastShotter.Tests.csproj": {}
+    "D:\\Dev\\FastShotter\\FastShotter.Tests\\FastShotter.Tests.csproj": {}
   },
   "projects": {
-    "/home/ksf/Dev/webapitests/FastShotter.Tests/FastShotter.Tests.csproj": {
+    "D:\\Dev\\FastShotter\\FastShotter.Tests\\FastShotter.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/ksf/Dev/webapitests/FastShotter.Tests/FastShotter.Tests.csproj",
+        "projectUniqueName": "D:\\Dev\\FastShotter\\FastShotter.Tests\\FastShotter.Tests.csproj",
         "projectName": "FastShotter.Tests",
-        "projectPath": "/home/ksf/Dev/webapitests/FastShotter.Tests/FastShotter.Tests.csproj",
-        "packagesPath": "/home/ksf/.nuget/packages/",
-        "outputPath": "/home/ksf/Dev/webapitests/FastShotter.Tests/obj/",
+        "projectPath": "D:\\Dev\\FastShotter\\FastShotter.Tests\\FastShotter.Tests.csproj",
+        "packagesPath": "C:\\Users\\krysi\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\FastShotter\\FastShotter.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/ksf/.config/NuGet/NuGet.Config"
+          "C:\\Users\\krysi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

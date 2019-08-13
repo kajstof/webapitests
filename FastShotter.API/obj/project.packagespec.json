@@ -1,18 +1,20 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/ksf/Dev/webapitests/FastShotter.API/FastShotter.API.csproj",
+    "projectUniqueName": "D:\\Dev\\FastShotter\\FastShotter.API\\FastShotter.API.csproj",
     "projectName": "FastShotter.API",
-    "projectPath": "/home/ksf/Dev/webapitests/FastShotter.API/FastShotter.API.csproj",
-    "outputPath": "/home/ksf/Dev/webapitests/FastShotter.API/obj/",
+    "projectPath": "D:\\Dev\\FastShotter\\FastShotter.API\\FastShotter.API.csproj",
+    "outputPath": "D:\\Dev\\FastShotter\\FastShotter.API\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Microsoft\\Xamarin\\NuGet",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
     ],
     "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
