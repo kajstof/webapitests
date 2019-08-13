@@ -12,6 +12,28 @@ namespace FastShotter.API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        [HttpGet]
+        public async Task<IEnumerable<string>> GetMath()
+        {
+            using (SchoolContext context = new SchoolContext())
+            {
+                IQueryable<Course> mathCourses = context.Courses.Where(x => x.CourseName.EndsWith("Math"));
+                return await Task.Run(() => mathCourses.Select(x => $"{x.CourseName}_Ans"));
+            }
+        }
+
+        public async Task<IActionResult> PostMath([FromBody] string courseName)
+        {
+            using (SchoolContext context = new SchoolContext())
+            {
+                var course = new Course() { CourseName = $"{courseName} Math"};
+                await context.Courses.AddAsync(course);
+                await context.SaveChangesAsync();
+                
+                return Created($"values/{nameof(GetMath)}", course.CourseId);
+            }
+        }
+        
         // GET api/values
         [HttpGet]
         public async Task<ActionResult<IEnumerable<string>>> Get()
