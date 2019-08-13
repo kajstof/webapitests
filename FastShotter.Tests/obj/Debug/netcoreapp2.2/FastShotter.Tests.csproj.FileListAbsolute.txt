@@ -1,0 +1,14 @@
+/home/ksf/Dev/webapitests/FastShotter.Tests/bin/Debug/netcoreapp2.2/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/home/ksf/Dev/webapitests/FastShotter.Tests/bin/Debug/netcoreapp2.2/xunit.runner.reporters.netcoreapp10.dll
+/home/ksf/Dev/webapitests/FastShotter.Tests/bin/Debug/netcoreapp2.2/xunit.runner.utility.netcoreapp10.dll
+/home/ksf/Dev/webapitests/FastShotter.Tests/bin/Debug/netcoreapp2.2/FastShotter.Tests.deps.json
+/home/ksf/Dev/webapitests/FastShotter.Tests/bin/Debug/netcoreapp2.2/FastShotter.Tests.runtimeconfig.json
+/home/ksf/Dev/webapitests/FastShotter.Tests/bin/Debug/netcoreapp2.2/FastShotter.Tests.runtimeconfig.dev.json
+/home/ksf/Dev/webapitests/FastShotter.Tests/bin/Debug/netcoreapp2.2/FastShotter.Tests.dll
+/home/ksf/Dev/webapitests/FastShotter.Tests/bin/Debug/netcoreapp2.2/FastShotter.Tests.pdb
+/home/ksf/Dev/webapitests/FastShotter.Tests/obj/Debug/netcoreapp2.2/FastShotter.Tests.csprojAssemblyReference.cache
+/home/ksf/Dev/webapitests/FastShotter.Tests/obj/Debug/netcoreapp2.2/FastShotter.Tests.csproj.CoreCompileInputs.cache
+/home/ksf/Dev/webapitests/FastShotter.Tests/obj/Debug/netcoreapp2.2/FastShotter.Tests.AssemblyInfoInputs.cache
+/home/ksf/Dev/webapitests/FastShotter.Tests/obj/Debug/netcoreapp2.2/FastShotter.Tests.AssemblyInfo.cs
+/home/ksf/Dev/webapitests/FastShotter.Tests/obj/Debug/netcoreapp2.2/FastShotter.Tests.dll
+/home/ksf/Dev/webapitests/FastShotter.Tests/obj/Debug/netcoreapp2.2/FastShotter.Tests.pdb

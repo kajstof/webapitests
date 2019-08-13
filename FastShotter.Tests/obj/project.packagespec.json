@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/ksf/Dev/webapitests/FastShotter.API/FastShotter.API.csproj",
-    "projectName": "FastShotter.API",
-    "projectPath": "/home/ksf/Dev/webapitests/FastShotter.API/FastShotter.API.csproj",
-    "outputPath": "/home/ksf/Dev/webapitests/FastShotter.API/obj/",
+    "projectUniqueName": "/home/ksf/Dev/webapitests/FastShotter.Tests/FastShotter.Tests.csproj",
+    "projectName": "FastShotter.Tests",
+    "projectPath": "/home/ksf/Dev/webapitests/FastShotter.Tests/FastShotter.Tests.csproj",
+    "outputPath": "/home/ksf/Dev/webapitests/FastShotter.Tests/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -29,26 +29,23 @@
   "frameworks": {
     "netcoreapp2.2": {
       "dependencies": {
-        "Microsoft.AspNetCore.App": {
-          "suppressParent": "All",
+        "Microsoft.NET.Test.Sdk": {
           "target": "Package",
-          "version": "[2.2.0, )",
-          "autoReferenced": true
-        },
-        "Microsoft.AspNetCore.Razor.Design": {
-          "suppressParent": "All",
-          "target": "Package",
-          "version": "[2.2.0, )"
-        },
-        "Microsoft.EntityFrameworkCore.Design": {
-          "target": "Package",
-          "version": "[2.2.6, )"
+          "version": "[16.0.1, )"
         },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",
           "version": "[2.2.0, )",
           "autoReferenced": true
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.0, )"
         }
       },
       "imports": [
