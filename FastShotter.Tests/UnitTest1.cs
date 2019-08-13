@@ -1,12 +1,6 @@
-<<<<<<< Updated upstream
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-=======
-using System.Collections;
-using System.Collections.Generic;
->>>>>>> Stashed changes
 using Xunit;
 
 namespace FastShotter.Tests
