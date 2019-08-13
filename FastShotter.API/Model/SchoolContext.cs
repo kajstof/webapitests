@@ -10,7 +10,7 @@ namespace FastShotter.API
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS;Database=SchoolDb;Trusted_Connection=True;");
+            optionsBuilder.UseSqlite("Data Source=school.db");
         }
     }
 }

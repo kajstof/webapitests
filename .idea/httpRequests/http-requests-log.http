@@ -1,0 +1,32 @@
+GET https://localhost:5001/api/values/getmath
+Accept: application/json
+
+###
+
+GET http://localhost:5000/api/values/getmath
+Accept: application/json
+
+###
+
+GET http://localhost:5000/api/values/getmath
+Accept: application/json
+
+###
+
+GET http://localhost:5000/api/values/getmath
+Accept: application/json
+
+###
+
+GET http://localhost:5000/api/values/getmath
+Accept: application/json
+
+<> 2019-08-13T103116.400.json
+
+###
+
+GET http://localhost:5000/api/values/getmath
+Accept: application/json
+
+###
+

@@ -20,3 +20,15 @@ Content-Type: application/json
 }
 
 ###
+
+GET https://localhost:5001/api/values/getmath
+Accept: application/json
+
+###
+
+POST https://localhost:5001/api/values/postmath
+Content-Type: application/json
+
+Test
+
+###

@@ -18,8 +18,12 @@
         <e p="Controllers" t="Include">
           <e p="ValuesController.cs" t="Include" />
         </e>
-        <e p="Course.cs" t="Include" />
         <e p="FastShotter.API.csproj" t="IncludeRecursive" />
+        <e p="Model" t="Include">
+          <e p="Course.cs" t="Include" />
+          <e p="SchoolContext.cs" t="Include" />
+          <e p="Student.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -29,10 +33,7 @@
         </e>
         <e p="Program.cs" t="Include" />
         <e p="requests.http" t="Include" />
-        <e p="SchoolContext.cs" t="Include" />
         <e p="Startup.cs" t="Include" />
-        <e p="Student.cs" t="Include" />
-        <e p="TodoDbContext.cs" t="Include" />
       </e>
       <e p="FastShotter.sln" t="IncludeFlat" />
       <e p="FastShotter.Tests" t="IncludeRecursive">

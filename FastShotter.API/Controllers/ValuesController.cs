@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,7 +9,7 @@ namespace FastShotter.API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        [HttpGet]
+        [HttpGet("getmath")]
         public async Task<IEnumerable<string>> GetMath()
         {
             using (SchoolContext context = new SchoolContext())
@@ -22,6 +19,7 @@ namespace FastShotter.API.Controllers
             }
         }
 
+        [HttpPost("postmath")]
         public async Task<IActionResult> PostMath([FromBody] string courseName)
         {
             using (SchoolContext context = new SchoolContext())
@@ -66,11 +64,11 @@ namespace FastShotter.API.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest();
+                return await Task.Run(() => BadRequest());
             }
 
             value.Value2 = "New Example Value #2";
-            return Created("aaa", value);
+            return await Task.Run(() => Created("aaa", value));
         }
         
         // POST api/values
