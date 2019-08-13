@@ -1,15 +1,59 @@
+<<<<<<< Updated upstream
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+=======
+using System.Collections;
+using System.Collections.Generic;
+>>>>>>> Stashed changes
 using Xunit;
 
 namespace FastShotter.Tests
 {
-    public class UnitTest1
+    public class Sumator
     {
+        public int Sum(int a, int b) => a + b;
+    }
+
+    public class SumatorTest
+    {
+        private Sumator Sumator { get; set; }
+        public SumatorTest()
+        {
+            Sumator = new Sumator();
+        }
+
         [Fact]
-        public void Test1()
+        public void SumTest()
+        {
+            // Arrange
+            const int a = 3;
+            const int b = 5;
+
+            // Act
+            var response = Execute2(a, b);
+
+            // Assert
+            Assert.True(response == 8);
+        }
+
+        [Fact]
+        public void Test333()
+        {
+            const int a = 10;
+            const int b = 4;
+
+            // Act
+            var response = ExecuteString(a, b);
+
+            // Assert
+            Assert.Contains("10", response);
+            Assert.Contains("4", response);
+        }
+
+        [Fact]
+        public void Test222()
         {
             // Arrange
             int i = 10;
@@ -54,5 +98,8 @@ namespace FastShotter.Tests
         {
             return i * 2;
         }
+
+        private int Execute2(int a, int b) => Sumator.Sum(a, b);
+        private IEnumerable<string> ExecuteString(int a, int b) => new List<string>() { a.ToString(), b.ToString() };
     }
 }
