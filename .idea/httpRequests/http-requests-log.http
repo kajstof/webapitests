@@ -1,3 +1,279 @@
+POST https://localhost:5001/api/values/postmath1
+Content-Type: application/json
+
+{
+  "courseName": "Bla1"
+}
+
+###
+
+POST https://localhost:5001/api/values/postmath1
+Content-Type: application/json
+
+{
+  "courseName": "Bla1"
+}
+
+###
+
+GET https://localhost:5001/api/values/getmath
+Accept: application/json
+
+<> 2019-08-13T113414.200.json
+
+###
+
+POST https://localhost:5001/api/values/postmath1
+Content-Type: application/json
+
+{
+  "courseName": "Bla6"
+}
+
+<> 2019-08-13T113408.201.json
+
+###
+
+POST https://localhost:5001/api/values/postmath1
+Content-Type: application/json
+
+{
+  "courseName": "Bla4"
+}
+
+<> 2019-08-13T113401.201.json
+
+###
+
+POST https://localhost:5001/api/values/postmath1
+Content-Type: application/json
+
+{
+  "courseName": "Bla3"
+}
+
+<> 2019-08-13T113356.201.json
+
+###
+
+POST https://localhost:5001/api/values/postmath1
+Content-Type: application/json
+
+{
+  "courseName": "Bla2"
+}
+
+<> 2019-08-13T113349.201.json
+
+###
+
+POST https://localhost:5001/api/values/postmath1
+Content-Type: application/json
+
+{
+  "courseName": "Bla1"
+}
+
+<> 2019-08-13T113318.201.json
+
+###
+
+POST https://localhost:5001/api/values/postmath
+Content-Type: application/json
+
+{
+  "courseName": "Bla1"
+}
+
+###
+
+POST https://localhost:5001/api/values/postmath1
+Content-Type: application/json
+
+{
+  "courseName": "Bla1"
+}
+
+<> 2019-08-13T113309.201.json
+
+###
+
+POST https://localhost:5001/api/values/postmath
+Content-Type: application/json
+
+{
+  "courseName": "Bla1"
+}
+
+###
+
+POST https://localhost:5001/api/values/postmath
+Content-Type: application/json
+
+{
+  "courseName": "Bla1"
+}
+
+###
+
+POST https://localhost:5001/api/values/postmath
+Content-Type: application/json
+
+{
+  "courseName": "Bla"
+}
+
+###
+
+GET https://localhost:5001/api/values/getmath
+Accept: application/json
+
+<> 2019-08-13T112630.200.json
+
+###
+
+POST https://localhost:5001/api/values/postmath
+Content-Type: application/json
+
+{
+  "courseName": "Bla2"
+}
+
+###
+
+POST https://localhost:5001/api/values/postmath
+Content-Type: application/json
+
+{
+  "courseName": "Bla1"
+}
+
+###
+
+POST https://localhost:5001/api/values/postmath
+Content-Type: application/json
+
+{
+  "courseName": "Bla"
+}
+
+###
+
+POST https://localhost:5001/api/values/postmath
+Content-Type: application/json
+
+{
+  "courseName": "Bla"
+}
+
+<> 2019-08-13T112134.400.json
+
+###
+
+POST https://localhost:5001/api/values/postmath
+Content-Type: application/json
+
+{
+  "data": "Bla"
+}
+
+<> 2019-08-13T112057.400.json
+
+###
+
+GET https://localhost:5001/api/values/getmath
+Accept: application/json
+
+<> 2019-08-13T112031.200.json
+
+###
+
+GET https://localhost:5001/api/values/getmath1
+Accept: application/json
+
+<> 2019-08-13T111949.200.json
+
+###
+
+GET https://localhost:5001/api/values/getmath1
+Accept: application/json
+
+###
+
+GET https://localhost:5001/api/values/getmath
+Accept: application/json
+
+###
+
+POST https://localhost:5001/api/values/postmath
+Content-Type: application/json
+
+{
+  "data": "Bla"
+}
+
+<> 2019-08-13T110830.400.json
+
+###
+
+POST https://localhost:5001/api/values/postmath
+Content-Type: application/json
+
+{
+  "data": "Bla"
+}
+
+<> 2019-08-13T110808.400.json
+
+###
+
+POST https://localhost:5001/api/values/postmath
+Content-Type: application/json
+
+Test
+
+<> 2019-08-13T110744.400.json
+
+###
+
+GET https://localhost:5001/api/values/getmath
+Accept: application/json
+
+###
+
+GET https://localhost:5001/api/values/getmath
+Accept: application/json
+
+###
+
+GET http://localhost:5000/api/values
+Accept: application/json
+
+<> 2019-08-13T110137.200.json
+
+###
+
+POST http://localhost:5000/api/values
+Content-Type: application/json
+
+{
+  "ID": 123,
+  "Value": "ExampleValue #1",
+  "Value2": "ExampleValue #2"
+}
+
+###
+
+GET https://localhost:5001/api/values/getmath
+Accept: application/json
+
+###
+
+GET https://localhost:5001/api/values/getmath
+Accept: application/json
+
+###
+
 GET https://localhost:5001/api/values/getmath
 Accept: application/json
 

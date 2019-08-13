@@ -15,20 +15,31 @@ namespace FastShotter.API.Controllers
             using (SchoolContext context = new SchoolContext())
             {
                 IQueryable<Course> mathCourses = context.Courses.Where(x => x.CourseName.EndsWith("Math"));
-                return await Task.Run(() => mathCourses.Select(x => $"{x.CourseName}_Ans"));
+                return await Task.Run(() => mathCourses.Select(x => $"{x.CourseName}_Ans").ToList());
             }
         }
 
         [HttpPost("postmath")]
-        public async Task<IActionResult> PostMath([FromBody] string courseName)
+        public async Task<IActionResult> PostMath([FromBody] CourseJson courseName)
         {
             using (SchoolContext context = new SchoolContext())
             {
-                var course = new Course() { CourseName = $"{courseName} Math"};
+                var course = new Course() { CourseName = $"{courseName.CourseName} Math"};
                 await context.Courses.AddAsync(course);
                 await context.SaveChangesAsync();
-                
-                return Created($"values/{nameof(GetMath)}", course.CourseId);
+                return await Task.Run(() => Created($"values/{nameof(GetMath).ToLower()}", course.CourseId));
+            }
+        }
+        
+        [HttpPost("postmath1")]
+        public async Task<IActionResult> PostMath1([FromBody] CourseJson courseName)
+        {
+            using (SchoolContext context = new SchoolContext())
+            {
+                var course = new Course() { CourseName = $"{courseName.CourseName} Math"};
+                context.Courses.Add(course);
+                context.SaveChanges();
+                return Created($"values/{nameof(GetMath).ToLower()}", course.CourseId);
             }
         }
         
@@ -102,5 +113,10 @@ namespace FastShotter.API.Controllers
         public int Id { get; set; }
         public string Value { get; set; }
         public string Value2 { get; set; }
+    }
+
+    public class CourseJson
+    {
+        public string CourseName { get; set; }
     }
 }

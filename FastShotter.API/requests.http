@@ -26,9 +26,20 @@ Accept: application/json
 
 ###
 
+POST https://localhost:5001/api/values/postmath1
+Content-Type: application/json
+
+{
+  "courseName": "Bla1"
+}
+
+###
+
 POST https://localhost:5001/api/values/postmath
 Content-Type: application/json
 
-Test
+{
+  "courseName": "Bla1"
+}
 
 ###
