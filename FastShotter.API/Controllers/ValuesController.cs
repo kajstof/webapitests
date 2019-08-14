@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FastShotter.API.Controllers
 {
@@ -9,45 +10,34 @@ namespace FastShotter.API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly SchoolContext _schoolContext;
+
+        public ValuesController(SchoolContext schoolContext)
+        {
+            _schoolContext = schoolContext;
+        }
+
         [HttpGet("getmath")]
         public async Task<IEnumerable<string>> GetMath()
         {
-            using (SchoolContext context = new SchoolContext())
-            {
-                IQueryable<Course> mathCourses = context.Courses.Where(x => x.CourseName.EndsWith("Math"));
-                return await Task.Run(() => mathCourses.Select(x => $"{x.CourseName}_Ans").ToList());
-            }
+            IQueryable<Course> mathCourses = _schoolContext.Courses.Where(x => x.CourseName.EndsWith("Math"));
+            return await mathCourses.Select(x => $"{x.CourseName}_Ans").ToListAsync();
         }
 
         [HttpPost("postmath")]
         public async Task<IActionResult> PostMath([FromBody] CourseJson courseName)
         {
-            using (SchoolContext context = new SchoolContext())
-            {
-                var course = new Course() { CourseName = $"{courseName.CourseName} Math"};
-                await context.Courses.AddAsync(course);
-                await context.SaveChangesAsync();
-                return await Task.Run(() => Created($"values/{nameof(GetMath).ToLower()}", course.CourseId));
-            }
-        }
-        
-        [HttpPost("postmath1")]
-        public async Task<IActionResult> PostMath1([FromBody] CourseJson courseName)
-        {
-            using (SchoolContext context = new SchoolContext())
-            {
-                var course = new Course() { CourseName = $"{courseName.CourseName} Math"};
-                context.Courses.Add(course);
-                context.SaveChanges();
-                return Created($"values/{nameof(GetMath).ToLower()}", course.CourseId);
-            }
+            var course = new Course() { CourseName = $"{courseName.CourseName} Math", Student = null};
+            await _schoolContext.Courses.AddAsync(course);
+            await _schoolContext.SaveChangesAsync();
+            return Created($"values/{nameof(GetMath).ToLower()}", course.CourseId);
         }
         
         // GET api/values
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<string>>> Get()
+        public ActionResult<IEnumerable<string>> Get()
         {
-            return await Task.Run(() => new string[] { "value1", "value2" });
+            return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
@@ -81,19 +71,6 @@ namespace FastShotter.API.Controllers
             value.Value2 = "New Example Value #2";
             return await Task.Run(() => Created("aaa", value));
         }
-        
-        // POST api/values
-//        [HttpPost]
-//        public async Task<IActionResult> Post([FromBody] SomeClassValue value)
-//        {
-//            if (!ModelState.IsValid)
-//            {
-//                return await Task.Run(() => BadRequest());
-//            }
-//
-//            value.Value2 = "New Example Value #2";
-//            return await Task.Run(() => Created("aaa", value));
-//        }
 
         // PUT api/values/5
         [HttpPut("{id}")]

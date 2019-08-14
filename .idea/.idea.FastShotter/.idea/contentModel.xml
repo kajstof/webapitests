@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\krysi\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0" t="Include">
+    <e p="C:\Users\kkrysiak\.nuget\packages\microsoft.net.test.sdk\16.0.1\build\netcoreapp1.0" t="Include">
       <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
     </e>
-    <e p="C:\Users\krysi\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
-    <e p="C:\Users\krysi\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
-    <e p="C:\Users\krysi\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-    <e p="C:\Users\krysi\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\krysi\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_FastShotter.1677320583.00" t="ExcludeRecursive" />
-    <e p="C:\Users\krysi\.Rider2019.2\system\rust_expanded_macros\VINpVYpW\expansions" t="IncludeRecursive" />
-    <e p="D:\Dev\FastShotter" t="IncludeFlat">
+    <e p="C:\Users\kkrysiak\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\kkrysiak\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\kkrysiak\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\kkrysiak\.Rider2019.2\config\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\kkrysiak\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\kkrysiak\.Rider2019.2\config\scratches" t="IncludeRecursive" />
+    <e p="C:\Users\kkrysiak\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\kkrysiak\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_FastShotter.443316759.00" t="ExcludeRecursive" />
+    <e p="D:\Dev\webapitests" t="IncludeFlat">
       <e p="FastShotter.API" t="IncludeRecursive">
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
